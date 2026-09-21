@@ -26,8 +26,11 @@ def show_sample(image_path, mask_path):
     plt.show()
 
 # Test with one sample
+# show_sample("dataset/images/0b792e26-e1dd-4fb7-a6b7-5d76f227a677.jpg", 
+#             "dataset/masks/0b556d02-f9ca-4270-b568-3200335c7d08.jpg")
+
 show_sample("dataset/images/0b792e26-e1dd-4fb7-a6b7-5d76f227a677.jpg", 
-            "dataset/masks/0b556d02-f9ca-4270-b568-3200335c7d08.jpg")
+            "dataset/masks/0b792e26-e1dd-4fb7-a6b7-5d76f227a677.jpg")
 
 
 
