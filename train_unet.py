@@ -24,4 +24,5 @@ model.compile(optimizer="adam", loss="binary_crossentropy", metrics=["accuracy"]
 model.fit(train_gen, validation_data=val_gen, epochs=25)
 
 # Save model
-model.save("polyp_unet_model.keras")
+# model.save("polyp_unet_model.keras")
+model.save("polyp_unet_model.h5")
